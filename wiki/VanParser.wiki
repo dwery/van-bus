@@ -1,8 +1,8 @@
 #summary van frames decoding software
 #labels Featured
 
-van-parser.pl reads from standard input the ASCII frames,
-formatted like this:
+van-parser.pl reads the ASCII frames from standard input,
+formatted like this one:
 
 {{{
 4D4 RA- 83148101320B3F3F484283 A
