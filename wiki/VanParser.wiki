@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary van frames decoding software
 
 van-parser.pl reads from standard input the ASCII frames,
 formatted like this:
