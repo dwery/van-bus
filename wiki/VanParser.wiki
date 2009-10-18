@@ -1,0 +1,36 @@
+#summary One-sentence summary of this page.
+
+van-parser.pl reads from standard input the ASCII frames,
+formatted like this:
+
+{{{
+4D4 RA- 83148101320B3F3F484283 A
+4D4 RA- 85148101320B3F3F484285 A
+}}}
+
+and produces a detailed output:
+
+{{{
+T2009101816:09:43Z, 4D4: RA- 83148101320B3F3F484283 A
+4D4|000001              old: 
+4D4|                         0001020304050607080910
+     1, loudness on     
+     4, source          : 32
+     5, volume          : 11
+     6, balance         : 0
+     7, fader           : 0
+     8, bass            : 9
+     9, treble          : 3
+T2009101816:09:43Z, 4D4: RA- 85148101320B3F3F484285 A
+4D4|000002              old: 83148101320B3F3F484283
+4D4|                         0001020304050607080910
+     1, loudness on     
+     4, source          : 32
+     5, volume          : 11
+     6, balance         : 0
+     7, fader           : 0
+     8, bass            : 9
+     9, treble          : 3
+done.
+
+}}}
