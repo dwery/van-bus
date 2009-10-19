@@ -1,0 +1,29 @@
+#summary VAN related links
+
+VAN info
+
+    * http://nicozone.free.fr/206/VAN/
+    * http://www.eurovan2.com
+    * ISO 14230 @ www.iso.org
+    * ISO 11519-3:1994 (VAN) @ www.iso.org 
+
+Radio stalk adapters
+
+    * http://www.bluespot.co.uk/install/peugeot.asp
+    * http://www.connects2.com/ 
+
+AUX adapters
+
+    * http://www.bortesi.it 
+
+Interesting threads
+
+    * http://www.forum-auto.com/sqlforum/section4/sujet174953-350.htm 
+
+OBD
+
+    * http://freediag.sourceforge.net/ 
+
+RT3 Upgrade
+
+    * http://www.schadde.com/eurovan/index.php?page=index&lang=us 
