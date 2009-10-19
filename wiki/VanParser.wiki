@@ -2,7 +2,7 @@
 #labels Featured
 
 van-parser.pl reads the ASCII frames from standard input,
-formatted like this one:
+[VANMonFormat formatted] like this one:
 
 {{{
 4D4 RA- 83148101320B3F3F484283 A
