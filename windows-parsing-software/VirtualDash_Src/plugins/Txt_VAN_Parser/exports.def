@@ -1,4 +1,0 @@
-EXPORTS
-	Init_Parser
-	Close_Parser
-	OnNewByte
