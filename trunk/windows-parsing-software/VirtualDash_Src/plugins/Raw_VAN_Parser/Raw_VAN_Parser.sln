@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Raw_VAN_Parser", "Raw_VAN_Parser.vcproj", "{A46D4F1B-BE8F-41E0-A62F-4C07C716C9B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A46D4F1B-BE8F-41E0-A62F-4C07C716C9B3}.Debug.ActiveCfg = Debug|Win32
+		{A46D4F1B-BE8F-41E0-A62F-4C07C716C9B3}.Debug.Build.0 = Debug|Win32
+		{A46D4F1B-BE8F-41E0-A62F-4C07C716C9B3}.Release.ActiveCfg = Release|Win32
+		{A46D4F1B-BE8F-41E0-A62F-4C07C716C9B3}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
