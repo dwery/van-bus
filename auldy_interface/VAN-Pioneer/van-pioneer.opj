@@ -1,0 +1,55 @@
+(ExpressProject "van-pioneer"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\van-pioneer.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (78XX/TO92
+      (FullPartName "78XX/TO92.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.0_DEMO\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
+      (DeviceIndex "0"))
+    (CON3
+      (FullPartName "CON3.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.0_DEMO\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (18F4550
+      (FullPartName "18F4550.Normal")
+      (LibraryName "D:\PIC.OLB")
+      (DeviceIndex "0"))
+    (DS2003
+      (FullPartName "DS2003.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.0_DEMO\TOOLS\CAPTURE\LIBRARY\LINEDRIVERRECEIVER.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\van-pioneer.dsn")
+      (Path "Design Resources" ".\van-pioneer.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\van-pioneer.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 200 0 594"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 44 1416 44 665")
+        (Scroll "0 0")
+        (Zoom "122")
+        (Occurrence "/"))
+      (Path "H:\CAR\406\VAN\GASCHEMATICS\VAN-PIONEER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
