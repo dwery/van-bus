@@ -1,8 +1,9 @@
+
 The CRC algorithm used on the VAN bus is a standard CRC whose parameters are:
 
 ||Name|| 	CRC-15 VAN ISO/11519–3||
 ||Width|| 	15||
-||Poly|| 	F9D||
+||Poly|| 	[F9D]||
 ||Init|| 	7FFF||
 ||RefIn|| 	False||
 ||RefOut|| 	False||
