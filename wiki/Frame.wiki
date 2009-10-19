@@ -1,4 +1,4 @@
-#summary VAn frame format
+#summary VAN frame format
 
 A VAN frame consists of:
 
