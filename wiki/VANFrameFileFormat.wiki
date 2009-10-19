@@ -1,0 +1,39 @@
+#summary Format of van-frames.txt
+
+This page describes the format that's used in van-frame.txt
+to describe the frame's function.
+
+The file itself is available in the SVN.
+
+Each line is formatted as:
+iden:[filter]:range:mask:type:[expression]:description
+
+Leading and trailing spaces in the description field will be removed by the parsing software.
+
+  * iden
+    * The iden you want to match on
+
+  * filter
+
+    ** A filter specification to match against frame content’s
+
+  * range
+
+    ** A
+    ** A-
+    ** A-B
+
+  * type
+
+    * iden
+    * ascii
+    * int
+    * eval
+    * assert
+    * bcd
+    * cmp
+    * bit
+
+  * expression
+
+    * with types eval, assert and bcd, this field will be evaluated before presenting the result to the user. Any X in the field will be substituted with the current field’s value. 
