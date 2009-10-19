@@ -1,4 +1,5 @@
-#summary One-sentence summary of this page.
+#summary VAn frame format
+
 A VAN frame consists of:
 
     * SOF
@@ -16,4 +17,4 @@ A VAN frame consists of:
     * ACK
     * EOF 
 
-  * Automatic links to other wiki pages
+ 
