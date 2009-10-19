@@ -1,0 +1,45 @@
+#summary Vehicle Area Network
+
+VAN is a network used in the automotive environment
+
+The bus is arbitrated and collisions are detected by CSMA/CA. Data is sent on the wire using Enhanced Manchester encoding.
+
+The format of a VAN frame is described here, and we also have a description of the different idens and the format of our log files.
+
+A description of VAN can be found in Protocols for Wired and Wireless Networks in Vehicle Systems.
+
+VAN was also described on www.van-bus.org and www.van-mux.org . Those two sites are now gone. Thanks to the Wayback Machine we can still retrieve some info:
+
+    * http://web.archive.org/web/*/van-bus.org/*
+    * http://web.archive.org/web/*/van-mux.org/* 
+
+There are many interesting pages. Some documents were once downloadable. If you happen to have some of the MissingFiles on your HD, please drop us a note.
+
+VAN specs:
+
+    * [http://www.iso.org/iso/en/CatalogueDetailPage.CatalogueDetail?CSNUMBER=19471&ICS1=43&ICS2=40&ICS3=15 ISO 11519-3:1994 (VAN) @ www.iso.org]
+
+    * http://www.educauto.org/Documents/Infotech/Mux1.pdf
+    * http://www.educauto.org/Documents/Infotech/Mux2.pdf
+    * http://www.educauto.org/Documents/Infotech/Mux3.pdf 
+
+VAN datalink controllers:
+
+Atmel seems the only producer of VAN datalink controllers. They were probably originally developed by Temic and then sold to Atmel.
+
+    * [http://www.atmel.com/dyn/resources/prod_documents/doc4205.pdf TSS463-AA]
+    * [http://www.atmel.com/dyn/resources/prod_documents/doc4102.pdf TSS463B]
+    * [http://www.atmel.com/dyn/resources/prod_documents/doc7601.pdf TSS643C]
+    * [http://www.atmel.com/dyn/resources/prod_documents/doc4193.pdf TSS461C]
+    * [http://www.atmel.com/dyn/resources/prod_documents/doc4194.pdf TSS461E]
+
+VAN line drivers:
+
+VAN line drivers are produced by AMIS. However, they’re not available to the general audience. We are trying to find suitable parts. Other VAN components use
+
+    * [http://nicozone.free.fr/206/VAN/MTC-30521.pdf MTC-30521]
+
+CAN line drivers can be used as well:
+
+    * [http://ww1.microchip.com/downloads/en/DeviceDoc/21667d.pdf MCP2551 (CAN)]
+
