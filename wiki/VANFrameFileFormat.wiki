@@ -14,17 +14,14 @@ Leading and trailing spaces in the description field will be removed by the pars
     ** The iden you want to match on
 
   * filter
-
     ** A filter specification to match against frame content
 
   * range
-
     ** A
     ** A-
     ** A-B
 
   * type
-
     ** iden
     ** ascii
     ** int
@@ -35,5 +32,4 @@ Leading and trailing spaces in the description field will be removed by the pars
     ** bit
 
   * expression
-
     ** with types eval, assert and bcd, this field will be evaluated before presenting the result to the user. Any X in the field will be substituted with the current field's value. 
