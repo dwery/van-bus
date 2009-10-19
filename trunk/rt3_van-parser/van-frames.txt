@@ -1,8 +1,8 @@
 
-E24::::iden:: VIN
-E24::0-::ascii:			: VIN
+E24::::iden:				: VIN
+E24::0-::ascii:				: VIN
 
-8A4::::iden:: misc info
+8A4::::iden:				: Dashboard
 8A4::0:0x20:bit:			: heartbeat
 8A4::0:0x0F:int:			: brightness
 8A4::0:0x80:bit:			: unknown
@@ -11,11 +11,11 @@ E24::0-::ascii:			: VIN
 8A4::1:0x02:bit:			: key pos M (2)
 8A4::1:0x04:bit:			: engine running
 8A4::1:0xF8:bcd: X || 'NaN'		: ? bitfield
-8A4::2::int: X != 0xFF ? X/2 \: 'n/a'	: ? temp (unknown, x/2)
-8A4::3::int:				: ? gauge 1
-8A4::4::int:				: ? gauge 2
-8A4::5::int: 				: ? gauge 3
-8A4::6::int: (X-0x50)/2			: temp (ext)
+8A4::2::int: X != 0xFF ? X/2 \: 'n/a'	: ? temperture (water)
+8A4::3::int:				: ? oil level 
+8A4::4::int:				: ? fuel level
+8A4::5::int: X/2			: ? temperature (oil)
+8A4::6::int: (X-0x50)/2			: temperature (external)
 
 9C4::::iden:: Radio Remote Control
 9C4::0:0x80:bit:	: seek+
@@ -53,12 +53,12 @@ E24::0-::ascii:			: VIN
 554:**D3:2:0xF0:cmp:	0x40		: type is frequency
 554:**D3:3-10::ascii:			: data
 
-4FC::::iden:: Dashboard
+4FC::::iden:: Lights
 4FC::0::bcd:		: 
 4FC::1::bcd:		: 
 4FC::1::assert:X != 0x00: byte 1 != 0x00
 4FC::2::bcd:		: ? oil level
-4FC::3::int: X/2	: ? temp 1
+4FC::3::int: X/2	: ? unknown gauge 1
 4FC::4::bcd:		: 
 4FC::4::assert:X != 0x00: byte 4 != 0x00
 4FC::5:0x80:bit:	: head (low)
@@ -69,8 +69,8 @@ E24::0-::ascii:			: VIN
 4FC::5:0x04:bit:	: left side indicator
 4FC::5:0x02:bit:	: ? bit 1
 4FC::5:0x01:bit:	: ? bit 0
-4FC::6::int: X/2	: ? temp 2
-4FC::7::bcd:		: ? unknown gauge
+4FC::6::int: 		: ? unknown gauge 2
+4FC::7::bcd:		: ? unknown gauge 3
 4FC::8::bcd:		: 
 4FC::9::bcd:		: 
 4FC::10::bcd:		: 
