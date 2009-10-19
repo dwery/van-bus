@@ -11,11 +11,11 @@ iden:[filter]:range:mask:type:[expression]:description
 Leading and trailing spaces in the description field will be removed by the parsing software.
 
   * iden
-    * The iden you want to match on
+    ** The iden you want to match on
 
   * filter
 
-    ** A filter specification to match against frame content’s
+    ** A filter specification to match against frame content
 
   * range
 
@@ -25,15 +25,15 @@ Leading and trailing spaces in the description field will be removed by the pars
 
   * type
 
-    * iden
-    * ascii
-    * int
-    * eval
-    * assert
-    * bcd
-    * cmp
-    * bit
+    ** iden
+    ** ascii
+    ** int
+    ** eval
+    ** assert
+    ** bcd
+    ** cmp
+    ** bit
 
   * expression
 
-    * with types eval, assert and bcd, this field will be evaluated before presenting the result to the user. Any X in the field will be substituted with the current field’s value. 
+    ** with types eval, assert and bcd, this field will be evaluated before presenting the result to the user. Any X in the field will be substituted with the current field's value. 
