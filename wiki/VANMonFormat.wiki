@@ -1,0 +1,17 @@
+#summary vanmon log file format
+
+This page describes the format of the log currently produced by the vanmon series of PIC programs.
+
+Examples:
+
+4D4 RAT - 8FC RA- 820D1A0D82 A
+
+Format:
+
+  * IDEN
+  * Flags
+    ** R/W - Read or Write
+    ** A - Acknowledge request
+    ** T - Remote Trasmission Request (RTR)
+  * Data
+  * Acknowledge received
