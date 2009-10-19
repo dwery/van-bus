@@ -4,7 +4,7 @@ This online VHDL code generator (http://www.easics.com/webtools/crctool) can be 
 
 Please not that this piece of code will need an initialized CRC in input and it’s output needs to be xored with 7FFF.
 
-`  
+{{{
 -----------------------------------------------------------------------
 -- File:  PCK_CRC15_D8.vhd
 -- Date:  Thu Mar  3 03:10:01 2005
@@ -102,4 +102,4 @@ package body PCK_CRC15_D8 is
   end nextCRC15_D8;
 
 end PCK_CRC15_D8;
-`
+}}}
