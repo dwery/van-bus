@@ -6,7 +6,7 @@ Atmel seems the only producer of VAN datalink controllers. They were probably or
 
     * [http://www.atmel.com/dyn/resources/prod_documents/doc4205.pdf TSS463-AA]
     * [http://www.atmel.com/dyn/resources/prod_documents/doc4102.pdf TSS463B]
-    * [http://www.atmel.com/dyn/resources/prod_documents/doc7601.pdf TSS643C]
+    * [http://www.atmel.com/dyn/resources/prod_documents/doc7601.pdf TSS463C]
     * [http://www.atmel.com/dyn/resources/prod_documents/doc4193.pdf TSS461C]
     * [http://www.atmel.com/dyn/resources/prod_documents/doc4194.pdf TSS461E]
     * [http://www.atmel.com/dyn/resources/prod_documents/doc7615.pdf TSS461F]
