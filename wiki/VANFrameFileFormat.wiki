@@ -25,11 +25,10 @@ Leading and trailing spaces in the description field will be removed by the pars
     ** iden
     ** ascii
     ** int
-    ** eval
     ** assert
     ** bcd
     ** cmp
     ** bit
 
   * expression
-    ** with types eval, assert and bcd, this field will be evaluated before presenting the result to the user. Any X in the field will be substituted with the current field's value. 
+    ** with types int, assert and bcd, this field will be evaluated before presenting the result to the user. Any X in the field will be substituted with the current field's value. 
