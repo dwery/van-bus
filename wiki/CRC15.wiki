@@ -1,3 +1,4 @@
+#summary VAN CRC15 algorithm
 
 The CRC algorithm used on the VAN bus is a standard CRC whose parameters are:
 
