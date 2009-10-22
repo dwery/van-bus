@@ -104,13 +104,13 @@ W2Pc macro
 
 ;*********************************************************************************
 ;Reset vector
-		ORG	0x0000
-		goto	Main
+	ORG	0x0000
+	goto	Main
 ;*********************************************************************************
 ;High priority interrupt vector
-		ORG	0x0008
-	HiPriInt
-		retfie	FAST
+	ORG	0x0008
+HiPriInt
+	retfie	FAST
 ;*********************************************************************************
 ;Start of main program
 
